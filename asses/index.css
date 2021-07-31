@@ -443,6 +443,16 @@ footer{
     /*border-radius: 15px;*/
     margin-bottom: 20px;
   }
+  .cards{
+    flex-direction: column;
+  }
+  .cards .card{
+    background: none;
+    width: 100%;
+  }
+  .cards .card > .contenido-texto-card{
+    color: #0F2027;
+  }
 
   footer{
     font-size: 12px;
