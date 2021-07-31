@@ -377,7 +377,7 @@ footer{
     display: block;
   }
   .imagen-port{
-    width: 48%;
+    width: 100%;
     margin-bottom: 10px;
     height: 250px;
     overflow: hidden;
@@ -385,10 +385,31 @@ footer{
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5)
   }
+  .Sobre-nosotros{
+    padding: 20px 0;
+  }
+  .sobre-nosotros img{
+    height: 300px;
+  }
   .imagen-sobre-nosotros{
     height: 350px;
+    float: none;
   
   }
+  h3{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .Sobre-nosotros .festejosleo-textos {
+    padding: 20px;
+    color: #2C5364;
+    border-left: solid;
+  }
+  .contenedor{
+    padding: 20px 0;
+  }
+
   .sobre-nosotros h2{
     font-size: 20px;
     text-align: center;
